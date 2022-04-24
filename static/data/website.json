@@ -1,17 +1,17 @@
 {
-  "name": "Sigma",
-  "title": "Sigma RP • Serveur GTA 5 roleplay Français",
-  "description": "Sigma rp est un serveur français basé sur GTA 5 RP présent sur les serveurs dédiés de FiveM. Serveur whitelist, Scripts originaux, Mise à jour quotidienne.",
+  "name": "Primea",
+  "title": "Primea RP • Serveur GTA 5 roleplay Français",
+  "description": "Primea rp est un serveur français basé sur GTA 5 RP présent sur les serveurs dédiés de FiveM. Serveur whitelist, Scripts originaux, Mise à jour quotidienne.",
   "category": "games",
-  "url": "https://sigma-rp.fr",
+  "url": "https://primea-rp.fr",
   "author": "Dibodev",
   "author_website": "https://dibodev.com",
-  "email": "contact@sigma-rp.fr",
-  "keywords": "gta gtarp gta5 gtav fivem free access fr francais sigma sigmarp sigma-rp rp",
+  "email": "contact@primea-rp.fr",
+  "keywords": "gta gtarp gta5 gtav fivem free access fr francais primea primearp primea-rp rp",
   "twitter": "@dibodev",
   "colorPrimary": "#A80400",
   "colorSecondary": "#999999",
-  "thumbnail": "https://sigma-rp.fr/sigma-thumbnail.jpg",
+  "thumbnail": "https://primea-rp.fr/primea-thumbnail.jpg",
   "lang": "fr",
   "city": "rennes",
   "country": "france",
@@ -19,7 +19,7 @@
   "languages": [
     {
       "lang": "fr",
-      "url": "https://www.sigma-rp.fr"
+      "url": "https://www.primea-rp.fr"
     }
   ],
   "GA_ID": "UA-220236798-1",

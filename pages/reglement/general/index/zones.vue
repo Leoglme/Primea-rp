@@ -5,7 +5,7 @@
 <script lang="ts">
 import ReglementView from "~/components/ReglementView/index.vue";
 import {updateHead} from "~/data/update-head";
-const title = "Règlement zones • Sigma RP"
+const title = "Règlement zones • Primea RP"
 const description = "Voici le règlement zones qu'aborde le règlement de notre server."
 const route = "/reglement/general/zones/"
 

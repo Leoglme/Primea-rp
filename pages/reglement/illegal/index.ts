@@ -3,7 +3,7 @@ import reglement from "@/static/data/reglement.json"
 import replace from "~/mixins/replace";
 import router from "~/mixins/router";
 import {updateHead} from "~/data/update-head";
-const title = "Règlement Illégal • Sigma RP"
+const title = "Règlement Illégal • Primea RP"
 const description = "Les règles concernant le monde de l'illégal tel que les règles des criminels en général, Gang et Organisation. Si un changement survient, il vous sera annoncé."
 const route = "/reglement/illegal/"
 

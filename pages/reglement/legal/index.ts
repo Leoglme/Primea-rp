@@ -3,7 +3,7 @@ import reglement from "@/static/data/reglement.json"
 import replace from "~/mixins/replace";
 import router from "~/mixins/router";
 import {updateHead} from "~/data/update-head";
-const title = "Règlement légal • Sigma RP"
+const title = "Règlement légal • Primea RP"
 const description = "Les règles concernant le monde du légal tel que les règles des civils, LSPD, BCSO, EMS et les entreprises sont amenées à évoluer. Si un changement survient, il vous sera annoncé."
 const route = "/reglement/legal/"
 

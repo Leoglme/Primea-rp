@@ -5,7 +5,7 @@
 <script lang="ts">
 import ReglementView from "~/components/ReglementView/index.vue";
 import {updateHead} from "~/data/update-head";
-const title = "Règlement mort-rp • Sigma RP"
+const title = "Règlement mort-rp • Primea RP"
 const description = "Voici le règlement mort-rp qu'aborde le règlement de notre server."
 const route = "/reglement/general/mort-rp/"
 export default {

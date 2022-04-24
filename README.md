@@ -1,4 +1,4 @@
-# Sigma
+# Primea rp
 
 ## Build Setup
 

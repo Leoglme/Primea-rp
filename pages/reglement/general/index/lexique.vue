@@ -5,7 +5,7 @@
 <script lang="ts">
 import ReglementView from "~/components/ReglementView/index.vue";
 import {updateHead} from "~/data/update-head";
-const title = "Règlement lexique • Sigma RP"
+const title = "Règlement lexique • Primea RP"
 const description = "Voici le règlement lexique qu'aborde le règlement de notre server."
 const route = "/reglement/general/lexique/"
 export default {
