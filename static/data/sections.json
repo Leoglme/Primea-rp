@@ -3,7 +3,7 @@
     "id": "home-slide",
     "slides": [
       {
-        "title": "Bienvenue sur Primea RP Σ !",
+        "title": "Bienvenue sur Primea RP !",
         "content": "PrimeaRP est un serveur GTA RP qui a ouvert ses portes en février 2022. Rejoins la Team Primea pour commencer ton épopée virtuelle avec le staff et tout tes petits potes !",
         "button": {
           "text": "Nous rejoindre"
@@ -14,7 +14,7 @@
         }
       },
       {
-        "title": "Bienvenue sur Primea RP Σ !",
+        "title": "Bienvenue sur Primea RP !",
         "content": "Légal, illégal, peu importe, il y a de tout pour plaire à tous sur PrimeaRP !",
         "button": {
           "text": "Nous rejoindre"
@@ -25,7 +25,7 @@
         }
       },
       {
-        "title": "Bienvenue sur Primea RP Σ !",
+        "title": "Bienvenue sur Primea RP !",
         "content": "Une question ? Une suggestion ? Le staff est toujours à l'écoute.",
         "button": {
           "text": "Nous rejoindre"
