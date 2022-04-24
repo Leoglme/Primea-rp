@@ -1,0 +1,108 @@
+$touche_color: rgba(255, 255, 255, 0.7);
+#touches {
+  margin-top: var(--grid-gap-static-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: var(--grid-gap-static-sm);
+}
+
+.touches_category--title {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: var(--header-font-family);
+  font-size: var(--body-font-size);
+  letter-spacing: 0;
+  line-height: var(--header-line-height);
+}
+
+.touches-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--grid-gap-static-sm);
+  max-height: 250px;
+  flex-wrap: wrap;
+}
+
+.touche-item {
+  color: $touche_color;
+  font-family: var(--body-font-family);
+  font-size: var(--font-size-2);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.touche {
+  padding: 4px 7px;
+  text-transform: capitalize;
+  border-radius: 3px;
+  font-size: var(--font-size-1);
+  min-width: 14px;
+  text-align: center;
+  border: 1px solid $touche_color;
+}
+
+.game-keys {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both
+}
+
+.touche-card {
+  max-width: 1200px;
+  width: 100%;
+  background: var(--card-background-color);
+  border-color: var(--border-color);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 850px) {
+  .touches-list {
+    max-height: unset;
+  }
+  #touches {
+    padding-top: var(--grid-gap-static-lg);
+  }
+  .touche-item {
+    max-width: 225px;
+  }
+}
+
+@media (max-width: 768px) {
+  #touches {
+    padding-top: var(--grid-gap-static-lg);
+  }
+  .touche-item {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 500px) {
+  #touches {
+    padding-top: var(--grid-gap-static-lg);
+  }
+  .touche-item {
+    max-width: unset;
+  }
+  .touches_category--title {
+    font-size: var(--font-size-2);
+  }
+}

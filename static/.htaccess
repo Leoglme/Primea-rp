@@ -1,0 +1,5 @@
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://sigma-rp.fr%{REQUEST_URI} [R=301,L,NE]

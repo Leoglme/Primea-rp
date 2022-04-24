@@ -1,0 +1,7 @@
+<el-skeleton animated>
+  <template slot="template">
+    <el-skeleton-item animated style="height: 40px; margin-bottom: var(--grid-gap-static-md);"/>
+    <el-skeleton-item v-for="n in 8" animated :key="n" />
+    <el-skeleton-item style="margin-top: var(--grid-gap-static-md); width: 6rem;" animated variant="button"/>
+  </template>
+</el-skeleton>

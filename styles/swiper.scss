@@ -1,0 +1,60 @@
+:root {
+  --swiper-theme-color: var(--primary) !important;
+}
+
+.swiper-nav_drawer .swiper-wrapper {
+  transform: translate3d(-320px, 0, 0);
+
+  .menu-button {
+    z-index: 1200;
+  }
+}
+
+.swiper-button-next, .swiper-button-prev {
+  outline: none;
+}
+
+.swiper {
+  overflow: unset;
+  width: 100%
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  --swiper-pagination-color: hsla(0, 0%, 100%, .85);
+  --swiper-pagination-bullet-inactive-color: hsla(0, 0%, 100%, .5);
+  --swiper-pagination-bullet-horizontal-gap: 0.35rem;
+  bottom: -2.5rem
+}
+
+.swiper-wrapper {
+  width: 100%
+}
+
+.swiper-pagination-white .swiper-pagination-bullet {
+  background: var(--border-color);
+  opacity: 1;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 5px;
+  max-width: 4rem;
+  outline: none;
+  padding: 0;
+  transition: background .3s;
+  width: 100%
+}
+
+@media (max-width: 767px) {
+  .swiper-pagination-white .swiper-pagination-bullet {
+    height: 6px;
+    width: 5rem;
+  }
+}
+
+.swiper-pagination-white .swiper-pagination-bullet:not(:last-child) {
+  margin-right: var(--grid-gap-static-md)
+}
+
+.swiper-pagination-white .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #fff
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "id": "home-slide",
+    "slides": [
+      {
+        "title": "Bienvenue sur SigmaRP Σ !",
+        "content": "SigmaRP est un serveur GTA RP qui a ouvert ses portes en février 2022. Rejoins la Team Sigma pour commencer ton épopée virtuelle avec le staff et tout tes petits potes !",
+        "button": {
+          "text": "Nous rejoindre"
+        },
+        "media": {
+          "type": "image",
+          "url": "/slides/slide-1.webp"
+        }
+      },
+      {
+        "title": "Bienvenue sur SigmaRP Σ !",
+        "content": "Légal, illégal, peu importe, il y a de tout pour plaire à tous sur SigmaRP !",
+        "button": {
+          "text": "Nous rejoindre"
+        },
+        "media": {
+          "type": "image",
+          "url": "/slides/slide-2.webp"
+        }
+      },
+      {
+        "title": "Bienvenue sur SigmaRP Σ !",
+        "content": "Une question ? Une suggestion ? Le staff est toujours à l'écoute.",
+        "button": {
+          "text": "Nous rejoindre"
+        },
+        "media": {
+          "type": "image",
+          "url": "/slides/slide-3.webp"
+        }
+      }
+    ]
+  },
+  {
+    "id": "characters",
+    "title": "Comment nous rejoindre ?",
+    "content": [
+      {
+        "text": "Installe Five M & TeamSpeak (mais vu que t'es un putain de geek tu les a déjà installés depuis au moins 200h \uD83D\uDE0F )"
+      },
+      {
+        "text": "Passe ta Whitelist sur Discord  \uD83D\uDE07 (Puisque t'as 18 ans...)",
+        "links": [
+          {
+            "pattern": "discord",
+            "target": "_blank",
+            "url": "https://discord.com/invite/eTtZEWCpmc"
+          }
+        ]
+      },
+      {
+        "text": "Connecte toi sur SigmaRP (ouais, les infos de connexion sont sur Discord \uD83D\uDC40 )"
+      },
+      {
+        "text": "Amuse toi bien ! ✨"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "/images/character1.webp"
+      },
+      {
+        "type": "image",
+        "url": "/images/character2.webp"
+      },
+      {
+        "type": "image",
+        "url": "/images/character3.webp"
+      }
+    ]
+  },
+  {
+    "id": "captures",
+    "title": "Images",
+    "max": 5,
+    "media": [
+      {
+        "type": "image",
+        "url": "/images/gta5-reel-car.webp"
+      },
+      {
+        "type": "third-right",
+        "images": [
+          {
+            "type": "image",
+            "url": "/images/gta5-character1.webp"
+          },
+          {
+            "type": "image",
+            "url": "/images/gta5-character2.webp"
+          }
+        ]
+      },
+      {
+        "type": "double",
+        "images": [
+          {
+            "type": "image",
+            "url": "/images/gta5-cops.webp"
+          },
+          {
+            "type": "image",
+            "url": "/images/gta5-dog.webp"
+          }
+        ]
+      }
+    ]
+  }
+]

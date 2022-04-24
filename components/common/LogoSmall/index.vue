@@ -1,0 +1,31 @@
+<template>
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+       :width="width" :height="height" viewBox="0 0 256.000000 256.000000"
+       preserveAspectRatio="xMidYMid meet">
+
+    <g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)"
+       fill="var(--primary)" stroke="none">
+      <path d="M191 2504 l-21 -27 0 -1197 0 -1197 21 -27 c17 -22 28 -27 58 -24 35
+3 51 22 519 612 265 335 485 620 488 633 4 16 -2 36 -19 61 -14 20 -234 296
+-489 612 -446 554 -465 575 -499 578 -30 2 -41 -2 -58 -24z"/>
+      <path d="M1161 2214 c-12 -15 -21 -36 -21 -48 0 -13 96 -140 248 -326 136
+-168 287 -354 335 -413 67 -82 87 -115 87 -138 0 -25 -61 -108 -335 -452 -353
+-445 -356 -449 -316 -498 l19 -24 582 0 582 0 24 28 24 28 0 908 c0 904 0 908
+-21 935 l-20 26 -584 0 -584 0 -20 -26z"/>
+    </g>
+  </svg>
+</template>
+
+<script lang="ts">
+export default {
+  name: "LogoSmall",
+  props: {
+    width: {type: String, default: '100%'},
+    height: {type: String, default: '100%'}
+  }
+}
+</script>
+
+<style scoped>
+
+</style>

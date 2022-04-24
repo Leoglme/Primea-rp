@@ -1,0 +1,22 @@
+$navHeight: 60px;
+
+#logo {
+  padding: 12px;
+}
+
+.navbar {
+  .el-menu {
+    border-bottom: 1px solid var(--border-light-color);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  }
+}
+
+.navigation-drawer {
+  z-index: 20;
+  height: 100vh;
+  background: rgba(0,0,0,.85);
+  position: fixed;
+  border-right: 0;
+  width: 100%;
+  display: none;
+}

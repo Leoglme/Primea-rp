@@ -1,0 +1,23 @@
+<swiper class="swiper" ref="mySwiper" :options="swiperOption">
+  <swiper-slide v-for="(slide, index) in homeSlides" :key="index">
+        <img
+          @load="showAfterLoad"
+          :width="fullWidth || 1920" :height="fullHeight || 1080"
+          :class="{'opacity-enable': mediaLoaded}"
+          :data-src="slide.media.url"
+          class="swiper-lazy hide-text opacity-disable"
+          :alt="slide.title + index"/>
+    <div class="content" data-swiper-parallax="-360">
+      <div class="content_container">
+        <h1 class="title" data-swiper-parallax="-100">{{ slide.title }}</h1>
+        <p class="subtitle" data-swiper-parallax="-240">{{ slide.content }}</p>
+        <button class="btn-outlined" @click="goto('info', 125)">{{ slide.button.text }}</button>
+      </div>
+    </div>
+        <div class="swiper-lazy-preloader"></div>
+  </swiper-slide>
+
+  <div class="swiper-pagination swiper-pagination-white" slot="pagination"></div>
+  <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
+  <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
+</swiper>

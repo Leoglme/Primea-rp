@@ -1,0 +1,45 @@
+<footer>
+  <div class="footer_links">
+     <div v-for="(link, index) in links" :key="index">
+       <nuxt-link
+         v-if="link.to && !link.to.toLowerCase().includes('http')"
+         :title="link.name"
+         :aria-label="`Lien ${link.name}`"
+         class="footer_links--item"
+         :to="link.to">
+         {{ link.name }}
+       </nuxt-link>
+
+       <a v-if="link.to && link.to.toLowerCase().includes('http')"
+          :title="link.name"
+          class="footer_links--item"
+          :href="link.to">
+         {{ link.name }}
+       </a>
+     </div>
+  </div>
+  <div class="social_media">
+    <a v-for="(link, index) in social_media"
+               :key="index"
+               :title="link.name"
+               :class="link.name.toLowerCase()"
+               class="social_media--item"
+               :href="link.to"/>
+  </div>
+
+  <section class="footer_infos">
+    <div class="footer_logo--website">
+      <nuxt-link aria-label="Lien vers la page d'accueil" to="/" title="accueil">
+        <LogoSmall width="2rem" height="2rem"/>
+      </nuxt-link>
+    </div>
+    <div class="footer_license">
+      © 2022 {{ website_name }}
+    </div>
+    <div class="footer_author">
+      <a :href="website_author.url" title="Auteur">
+        {{ website_author.name }}
+      </a>
+    </div>
+  </section>
+</footer>

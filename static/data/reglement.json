@@ -1,0 +1,409 @@
+{
+  "name": "règlement",
+  "description": "Vous retrouverez ci-dessous les différentes catégories qu'aborde ce règlement. \n Il est bien entendu amené à changer. Vous devez vous en tenir informés bien que nous vous ferons une annonce si c'est le cas. \n Vous devez connaître le règlement sur le bout des doigts mais n'hésitez pas à le relire si vous avez un doute ou avant de faire une scène..",
+  "general": {
+    "name": "règlement général",
+    "description": "Les règles générales sont amenées à évoluer. Si un changement survint, il vous sera annoncé.\nCependant, tenez-vous au courant tout de même en regardant le règlement régulièrement et surtout si vous avez des doutes.",
+    "rules": [
+      {
+        "name": "lexique",
+        "description": "Ceci est une liste non-exhaustive des termes employés sur le serveur.",
+        "terms": [
+          {
+            "label": "Pain Rp, Fear Rp",
+            "text": "Jouer la douleur et la peur lors des scènes qui le nécessitent.\nExemple : avoir mal lorsqu'on tombe ou trébuche, avoir peur lorsqu'on est pris en otage"
+          },
+          {
+            "label": "No pain rp, No fear rp",
+            "text": "Ne pas jouer la douleur ou la peur lors d'une scène qui le nécessite."
+          },
+          {
+            "label": "Force Rp",
+            "text": "Ne laisser aucune issue aux autres joueurs et manipuler leurs personnages ou environnements statique pour imposer sa volonté."
+          },
+          {
+            "label": "Carkill",
+            "text": "Ecraser un joueur ou un PNJ sans raisons valable."
+          },
+          {
+            "label": "Metagaming",
+            "text": "Frapper, tuer, tirer sur un joueur ou un PNJ sans raison valable."
+          },
+          {
+            "label": "Win RP",
+            "text": "Vouloir gagner à tout prix et ne pas accepter la défaite."
+          },
+          {
+            "label": "Powergaming",
+            "text": "Se comporter comme si tout était possible en jeu.\nExemple : Percuter un mur à pleine vitesse et continuer à rouler normalement, imposer une action à quelqu'un..."
+          },
+          {
+            "label": "RP de masse",
+            "text": "Prendre en compte le fait qu'il y a du monde dans la rue / les bâtiments. Il n'y a pas que les joueurs, il y a aussi les PNJ."
+          },
+          {
+            "label": "Bunnyhop",
+            "text": "Sauter et courir en même temps pour aller plus vite et plus loin."
+          },
+          {
+            "label": "Chickenrun",
+            "text": "Courir en diagonale (de gauche à droite) pour éviter les balles."
+          }
+        ]
+      },
+      {
+        "name": "zones",
+        "terms": [
+          {
+            "label": "Les zones safe sont les suivantes :",
+            "list": [
+              {
+                "text": "LSPD/BCSO"
+              },
+              {
+                "text": "Hôpital"
+              },
+              {
+                "text": "Aéroport (le point de spawn)"
+              },
+              {
+                "text": "Gouvernement"
+              }
+            ]
+          },
+          {
+            "label": "Les zones interdites de survol sont les suivantes :",
+            "list": [
+              {
+                "text": "Fort Zancudo"
+              },
+              {
+                "text": "Cayo Perico (à vos risques et périls...)"
+              },
+              {
+                "text": "Porte avion"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "interdictions",
+        "terms": [
+          {
+            "text": "Vous ne devez pas faire de HRP (Hors RôlePlay) en jeu. Si une scène vous semble HRP, terminez la scène et informez-en le Staff via un ticket."
+          },
+          {
+            "text": "Tout propos raciste, sexiste ou homophobe sont prohibés sous peine de ban instantané."
+          },
+          {
+            "text": "Il est interdit de promouvoir toute religion ou secte."
+          },
+          {
+            "text": "Vous ne devez pas prêter ou vendre votre compte steam à quelqu'un d'autre dans le but que cette personne incarne votre personnage."
+          },
+          {
+            "text": "Il est interdit de s'absenter lors d'une scène, coma."
+          },
+          {
+            "text": "Les métagaming, powergaming, carkill, freepunch, freekill, freeshot, no fear, no pain, force rp, bunnyhop, chicken run sont strictement prohibés."
+          },
+          {
+            "text": "Vous ne devez pas vous arranger de façons HRP pour des scènes RP."
+          }
+        ]
+      },
+      {
+        "name": "mortrp",
+        "description": "Une mort Rp signifie la mort définitive de votre personnage.",
+        "links": {
+          "url": "https://dyno.gg/form/1040fdfd",
+          "text": "Dossier mort rp"
+        },
+        "terms": [
+          {
+            "label": "Pour qu'une mort RP soit valide, il faut remplir ces conditions :",
+            "list": [
+              {
+                "text": "Remplir un dossier staff qui sera validé ou refusé."
+              },
+              {
+                "text": "Avoir une bonne raison."
+              }
+            ]
+          },
+          {
+            "label": "Exceptions pour une mort RP sans dossier :",
+            "list": [
+              {
+                "text": "Les médecins peuvent demander une mort RP sans dossier (blessures graves qui \"obligent\" la mort du patient) avec pour preuve le dossier médical de la personne concernée"
+              },
+              {
+                "text": "Lors d'une scène, vous pouvez décider de mourir si vous estimez que vous ne devez pas rester en vie (accident grave de la route, scène de tirs)"
+              }
+            ]
+          },
+          {
+            "text": "Vous ne pouvez pas créer un nouveau personnage en rapport avec votre ancien"
+          },
+          {
+            "text": "Vous pouvez léguer vos biens si un testament a été rédigé en jeu avec un avocat ou un notaire"
+          },
+          {
+            "text": "Vous devez attendre votre wipe avant de vous reconnecter après une mort RP"
+          },
+          {
+            "text": "Vous ne devez pas bâcler la scène"
+          },
+          {
+            "label": "Lorsque votre dossier est accepté, vous avez 1 semaine pour réaliser la scène, vous devez soit :",
+            "list": [
+              {
+                "text": "Demander au staff de surveiller la scène pour la valider"
+              },
+              {
+                "text": "Filmer la scène pour que le staff la valide"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "coma",
+        "media": {
+          "type": "image",
+          "label": "Voici à quoi ressemble l'écran de coma :",
+          "url": "/images/coma-gta-rp.webp"
+        },
+        "terms": [
+          {
+            "label": "Lorsque vous êtes dans le coma, vous vous devez de respecter les règles suivantes :",
+            "list": [
+              {
+                "text": "Vous ne pouvez pas parler"
+              },
+              {
+                "text": "Vous ne vous rappelez pas de la scène qui a amené à votre coma"
+              },
+              {
+                "text": "Vous n'entendez pas ce qu'il se passe autour de vous"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "name": "règlement legal",
+    "description": "Les règles concernant le monde du légal tel que les règles des civils, LSPD, BCSO, EMS et les entreprises sont amenées à évoluer. Si un changement survient, il vous sera annoncé.\nCependant, tenez-vous au courant tout de même en regardant le règlement régulièrement et surtout si vous avez des doutes.",
+    "rules": [
+      {
+        "name": "civil",
+        "terms": [
+          {
+            "text": "Votre personnage doit correspondre à votre background et suivre la ligne directrice que vous lui aurez donné."
+          },
+          {
+            "text": "Si vous êtes blessés, vous devez vous rendre obligatoirement à l'hôpital ou attendre un médecin."
+          },
+          {
+            "text": "Il est interdit de réaliser des actions illégales dans les zones safes (sauf accord staff)."
+          },
+          {
+            "text": "Il est interdit d'utiliser les véhicules armés qui spawn sur la map."
+          },
+          {
+            "text": "Vous devez respecter le masse RP."
+          }
+        ]
+      },
+      {
+        "name": "lspdbcso",
+        "terms": [
+          {
+            "text": "Le LSPD/BCSO troll n'est pas toléré"
+          },
+          {
+            "text": "Lors des fouilles, on considère l'argent sale comme de l'argent liquide. Au delà de 2 000 $ sur soi, le LSPD peut exiger un contrôle fiscal."
+          },
+          {
+            "text": "Les forces de l'ordre ne peuvent pas tirer sur des véhicules dans le but de les neutraliser selon la situation. (Situation de danger de mort ou danger de mort/blessures d'autrui)"
+          },
+          {
+            "text": "Pour des raisons légitimes, si vous êtes amené à démissionner du LSPD/BCSO, il vous faudra attendre un mois avant de vous diriger vers le milieu illégal ou faire une demande de Wipe pour écourter ce temps d'attente."
+          },
+          {
+            "text": "Pour pouvoir appréhender un suspect pour trafic de drogue, il vous faudra le prendre sur le fait avec des preuves matérielles (dashcam, photos prises avec le téléphone, témoins oculaires, ...)"
+          },
+          {
+            "text": "En tant que membre du LSPD, il est exigé de savoir garder son sang froid, peu importe la situation (ne pas jouer le cow-boy, ce n'est pas le bon poste...)\nVous devez privilégier les menaces et les sommations."
+          },
+          {
+            "text": "Pour des raisons RP, pour récupérer la localisation GPS d'un bracelet électronique, vous devez utiliser un ordinateur au poste de police ou dans les véhicules de fonctions."
+          },
+          {
+            "text": "Lors d'une prise d'otage, le LSPD/BCSO n'a pas le droit de négocier sans que le négociateur soit présent (éviter au max le Win RP et jouer fair play)."
+          },
+          {
+            "text": "Mass RP : tout acte envers un PNJ sera jugé par le LSPD/BCSO"
+          },
+          {
+            "text": "A partir du moment où vous n'êtes plus en service, vous êtes soumis aux lois comme tous les citoyens basiques de l'île."
+          },
+          {
+            "text": "Les agents corrompus sont autorisés avec un accord staff (vous devez nous transmettre un dossier). Suite à cet accord, il faudra jouer le plus fair play possible et éviter le plus possible le Win RP."
+          },
+          {
+            "text": "Il est autorisé de tazer quelqu'un à moto dans la limite du raisonnable et si la personne ne cours aucun danger suite à ce taze"
+          },
+          {
+            "text": "Il est interdit d'avoir un double job (sauf intérim)."
+          }
+        ]
+      },
+      {
+        "name": "ems",
+        "terms": [
+          {
+            "text": "Les amputations sont interdites pour des raisons évidentes qu'on ne peut pas retirer un membre sur les personnages."
+          },
+          {
+            "text": "En tant qu'EMS, vous ne pouvez pas forcer un RP handicapé sans raisons."
+          },
+          {
+            "text": "Les EMS savent ce qu'ils font, s'ils interviennent sur une scène, et que vous avez besoin d'un soin particulier (radio, IRM, échographie, ...), vous devez respecter leurs diagnostics."
+          },
+          {
+            "text": "Vous devez soigner tous les citoyens de la même façon et ne devez pas faire de priorité ou bâcler certains soins quelque soit la raison."
+          },
+          {
+            "text": "En tant qu'EMS, vous n'êtes pas intouchable. Si vous vous faites braquer, vous devez jouer le Fear RP (si un bandit vous demande de soigner telle personne en priorité en vous braquant, vous devez le faire)."
+          },
+          {
+            "text": "Un médecin rattaché à un(e) gang/organisation peut décider de ne pas soigner un citoyen mais il devra en assumer les conséquences."
+          },
+          {
+            "text": "Il est interdit d'avoir un double job."
+          }
+        ]
+      },
+      {
+        "name": "entreprises",
+        "terms": [
+          {
+            "text": "Il est interdit de créer son entreprise sans l'accord du gouvernement."
+          },
+          {
+            "text": "Pour créer une entreprise vous devez absolument remplir un dossier à fournir au gouverneur de façon RP."
+          },
+          {
+            "text": "Pour racheter une entreprise, vous devez remplir un dossier et le fournir au patron en question."
+          },
+          {
+            "text": "Un citoyen ne peut être patron de plus de 3 entreprises (sauf accord staff)"
+          },
+          {
+            "text": "Une entreprise ne peut être composé de plus de 7 personnes (sauf entreprise public : LSPD, BCSO, EMS, Gouvernement, Banque)"
+          },
+          {
+            "text": "Les entreprises se doivent d'avoir leurs comptabilités à jour via des documents type \"Google Sheets\" (cf. Fiscal)"
+          },
+          {
+            "text": "Un mapping pour votre entreprise peut être demandé via un ticket staff."
+          }
+        ]
+      }
+    ]
+  },
+  "illegal": {
+    "name": "règlement illegal",
+    "description": "Les règles concernant le monde de l'illégal tel que les règles des criminels en général, Gang et Organisation.\nSi un changement survient, il vous sera annoncé.\nCependant, tenez-vous au courant tout de même en regardant le règlement régulièrement et surtout si vous avez des doutes.",
+    "rules": [
+      {
+        "name": "criminel",
+        "terms": [
+          {
+            "text": "Le vol de véhicule joueur est autorisé dans la limite du raisonnable."
+          },
+          {
+            "text": "Il est interdit de braquer plusieurs fois la même personne dans la même journée."
+          },
+          {
+            "text": "Vous ne pouvez pas reconnaître quelqu'un à sa voix."
+          },
+          {
+            "text": "Vous avez le droit d'obliger quelqu'un à retirer de l'argent à un ATM et vous le donner à hauteur de 6 000 $."
+          },
+          {
+            "text": "Quand vous braquez une personne vous n'avez le droit de prendre 50% des objets qu'il porte sur lui\nExemple : S'il a 2 bouteilles d'eau vous en prenez qu'une, s'il a 5 000 $ vous prenez que 2 500$"
+          },
+          {
+            "text": "Lors d'une scène avec d'autres criminels, privilégiez les menaces et sommations plutôt que le gunfight"
+          },
+          {
+            "text": "Lors des braquages (supérettes, coiffeur, tatoueur etc..) vous devez attendre l'arrivée des forces de l'ordre pour pouvoir vous enfuir"
+          },
+          {
+            "text": "Les braquages peuvent êtres réaliser en deux roues (sauf Bf400/Sanchez/Manchez pour équilibrage illégal/LSPD, BCSO)"
+          },
+          {
+            "text": "Il est interdit de vendre de la drogue à moto."
+          },
+          {
+            "text": "Lors de scènes, vous avez le droit de forcer un EMS à soigner vos coéquipiers avant vos ennemis"
+          },
+          {
+            "text": "Privilégiez les combats à l'arme blanche ou mains nues plutôt que les gunfights"
+          },
+          {
+            "text": "Il est interdit de se rendre sur un lieu de récolte de drogue/arme en hélico/avion si aucun LSPD/BCSO n'est présent en ville."
+          }
+        ]
+      },
+      {
+        "name": "gang",
+        "terms": [
+          {
+            "text": "Si vous avez choisi un gang de GTA vous devez respecter son lore (Vagos, Ballas, Famillies, etc...)"
+          },
+          {
+            "text": "Les gangs ont des quartiers, si vous entrez à l'intérieur, vous respecter le Mass RP à vos risques et périls"
+          },
+          {
+            "text": "Un gang n'a pas de limites de membres, par contre les scènes ne doivent pas se produire à plus de 10 membres par gang/organisation"
+          },
+          {
+            "text": "Comme un vrai gang, vous devez revendiquer votre quartier"
+          },
+          {
+            "text": "Si vous souhaitez créer un gang, cela se passe en RP. Par ailleurs, la revendication de quartier se fait en accord avec le staff."
+          },
+          {
+            "text": "Les alliances autres que commerciales entre gangs sont interdites (respect du lore) !"
+          }
+        ]
+      },
+      {
+        "name": "organisation",
+        "terms": [
+          {
+            "text": "Les patrons d'organisation ont le droit d'être patron d'entreprises"
+          },
+          {
+            "text": "Les organisations ne doivent pas dépasser 20 membres. En revanche, lors de scènes, vous ne devez pas dépasser les 10 membres présents par organisation/gang"
+          },
+          {
+            "text": "Les organisations n'ont pas de territoire attitré"
+          },
+          {
+            "text": "Les alliances entre organisations sont interdites sauf dans un but commercial."
+          },
+          {
+            "text": "Le mass RP ne fonctionne pas sur les QG/Laboratoires des organisations."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<div class="rules-container">
+  <h2 class="reglement-sub-title" v-html="description" v-if="description"/>
+  <span class="horizontal-separator" style="margin-top: 2rem;" v-if="description"/>
+  <ul class="rules-list">
+    <li v-for="(term, index) in reglement.terms" :key="index"
+        :class="{'no_style--list reglement-sub-title': term.list}">
+      <span class="rules-title" :class="{'list-title': term.list}" v-if="term.label">{{capitalizeFirstLetter(term.label.replace(':', ''))}} :</span>
+      <span class="rules-text" :class="{'list-title--small': !term.label}" v-html="breakReplace(term.text)" v-if="term.text"/>
+      <ul class="rules-list sub-rules" v-if="term.list">
+        <li v-for="(item, listIndex) in term.list" :key="listIndex" v-if="item.text"
+            v-html="`<span class='rules-title'>${breakReplace(item.text)}</span>`"/>
+      </ul>
+    </li>
+  </ul>
+  <div class="reglement-media w100" v-if="reglement.media">
+    <el-skeleton :loading="!mediaLoaded" animated>
+      <template slot="template">
+        <el-skeleton-item
+          variant="image"
+          style="height: 48vw;"
+        />
+      </template>
+    </el-skeleton>
+    <nuxt-img @load="showAfterLoad" :class="{'opacity-enable': mediaLoaded}" width="1280" height="720" class="opacity-disable"
+      format="webp" :src="reglement.media.url" :alt="reglement.media.label" v-if="reglement.media && reglement.media.type === 'image'" />
+    <video :poster="reglement.media.poster" :src="reglement.media.url" v-if="reglement.media && reglement.media.type === 'video'"/>
+  </div>
+  <nuxt-link aria-label="Bouton retour vers les catégories de règlement" to="/reglement">
+    <button class="btn btn-sm back_btn"><i class="el-icon-back bold"/> Règlements</button>
+  </nuxt-link>
+</div>

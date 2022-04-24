@@ -1,0 +1,29 @@
+<section id="captures" v-if="!$fetchState.pending">
+  <div class="section-header">
+    <h2 class="section-title">{{ captureSection.title }}</h2>
+  </div>
+
+  <template v-for="(row, index) in captureSection.media" v-if="(index + 1) <= captureSection.max">
+    <div class="capture_row row-full" v-if="row.type === 'image'" style="max-height: 35rem">
+
+      <nuxt-img
+        :width="fullWidth || 1920" :height="fullHeight || 1000"
+        @load="showAfterLoad" class="opacity-disable"
+        :class="{'opacity-enable': mediaLoaded}"
+        :src="row.url"
+        :alt="`sigma gta rp picture ${index}`"
+        :key="index" format="webp"/>
+    </div>
+
+    <div class="capture_row" v-if="row.type !== 'image'" :class="row.type" :key="index">
+      <nuxt-img v-for="(image, imageIndex) in row.images"
+                :key="imageIndex" format="webp"
+                width="1200" height="650"
+                :width="thirdWidth || 1200" :height="thirdHeight || 650"
+                @load="showAfterLoad" class="opacity-disable"
+                :class="{'opacity-enable': mediaLoaded}"
+                :src="image.url"
+                :alt="`sigma gta rp picture ${index}-${imageIndex}`"/>
+    </div>
+  </template>
+</section>

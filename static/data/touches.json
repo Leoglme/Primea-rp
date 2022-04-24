@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Touches générales IG",
+    "touches": [
+      {
+        "label": "Menu",
+        "keys": [
+          "F5"
+        ]
+      },
+      {
+        "label": "Inventaire (votre sac)",
+        "keys": [
+          "F2"
+        ]
+      },
+      {
+        "label": "Téléphone",
+        "keys": [
+          "F1"
+        ]
+      },
+      {
+        "label": "Menu animations / emotes",
+        "keys": [
+          "F3"
+        ]
+      },
+      {
+        "label": "Menu Entreprise",
+        "keys": [
+          "F6"
+        ]
+      },
+      {
+        "label": "Menu vêtements/accessoires",
+        "keys": [
+          "Y"
+        ]
+      },
+      {
+        "label": "Menu Armes",
+        "keys": [
+          "inventaire"
+        ]
+      },
+      {
+        "label": "Menu Illégal (orga/gang)",
+        "keys": [
+          "F6"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Touches véhicule",
+    "touches": [
+      {
+        "label": "Ouvrir/Fermer",
+        "keys": [
+          "U"
+        ]
+      },
+      {
+        "label": "Mettre/Enlever la ceinture",
+        "keys": [
+          "K"
+        ]
+      },
+      {
+        "label": "Monter/Descendre d'un véhicule",
+        "keys": [
+          "F"
+        ]
+      },
+      {
+        "label": "Ouvrir le coffre",
+        "keys": [
+          "L"
+        ]
+      },
+      {
+        "label": "Limitateur de vitesse",
+        "keys": [
+          "INSERT"
+        ]
+      },
+      {
+        "label": "Allumer/Eteindre les feux",
+        "keys": [
+          "H"
+        ]
+      },
+      {
+        "label": "Menu véhicule",
+        "keys": [
+          "F5",
+          "Gestion véhicule"
+        ]
+      },
+      {
+        "label": "Gyrophares",
+        "keys": [
+          "E"
+        ]
+      },
+      {
+        "label": "Sirènes",
+        "keys": [
+          "G"
+        ]
+      },
+      {
+        "label": "Molette vers le bas",
+        "keys": [
+          "Y"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Touches joueur",
+    "touches": [
+      {
+        "label": "Levez les mains en l'air",
+        "keys": [
+          "²"
+        ]
+      },
+      {
+        "label": "Pointer du doigt",
+        "keys": [
+          "B"
+        ]
+      },
+      {
+        "label": "Portée de la voix",
+        "keys": [
+          "W"
+        ]
+      },
+      {
+        "label": "Siffler",
+        "keys": [
+          "Shift",
+          "W"
+        ]
+      },
+      {
+        "label": "Ragdol",
+        "keys": [
+          "-"
+        ]
+      },
+      {
+        "label": "Changer de vue personnage",
+        "keys": [
+          "V"
+        ]
+      },
+      {
+        "label": "Parler radio/téléphone",
+        "keys": [
+          "Alt"
+        ]
+      }
+    ]
+  }
+]

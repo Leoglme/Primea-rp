@@ -1,0 +1,28 @@
+{
+  "name": "Sigma",
+  "title": "Sigma RP • Serveur GTA 5 roleplay Français",
+  "description": "Sigma rp est un serveur français basé sur GTA 5 RP présent sur les serveurs dédiés de FiveM. Serveur whitelist, Scripts originaux, Mise à jour quotidienne.",
+  "category": "games",
+  "url": "https://sigma-rp.fr",
+  "author": "Dibodev",
+  "author_website": "https://dibodev.com",
+  "email": "contact@sigma-rp.fr",
+  "keywords": "gta gtarp gta5 gtav fivem free access fr francais sigma sigmarp sigma-rp rp",
+  "twitter": "@dibodev",
+  "colorPrimary": "#A80400",
+  "colorSecondary": "#999999",
+  "thumbnail": "https://sigma-rp.fr/sigma-thumbnail.jpg",
+  "lang": "fr",
+  "city": "rennes",
+  "country": "france",
+  "postal_code": "35000",
+  "languages": [
+    {
+      "lang": "fr",
+      "url": "https://www.sigma-rp.fr"
+    }
+  ],
+  "GA_ID": "UA-220236798-1",
+  "GTAG_ID": "GTM-T78J7HX",
+  "googleSearchConsoleId": "p2Rz8Gsn-PJ7Allcq30R9Hpt0VS2OUvnHIHC2w8l53A"
+}

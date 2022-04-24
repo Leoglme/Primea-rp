@@ -1,0 +1,55 @@
+<div>
+  <nav class="navbar">
+    <el-menu mode="horizontal" background-color="var(--nav-background)">
+      <div class="toggle" :class="{'active': menuOpened}" @click="menuOpened = !menuOpened">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <el-menu-item aria-label="Logo du site et lien vers la page d'accueil" id="logo" index="/" class="menu-item">
+        <Logo style="pointer-events: none"/>
+      </el-menu-item>
+      <template v-for="(link, index) in links">
+        <el-menu-item class="menu-item menu_item--link" :key="index" :index="link.to" v-if="link.role === 'item'">
+          <nuxt-link :to="link.to" :aria-label="`Lien vers la page ${link.name}`">
+            {{ link.name }}
+          </nuxt-link>
+        </el-menu-item>
+        <el-submenu  class="menu-item" v-if="link.role === 'menu'" :index="link.to || link.name">
+          <template slot="title">{{ link.name }}</template>
+          <el-menu-item v-for="(subLink, subIndex) in link.links"
+                        :key="subIndex" :index="subLink.to"
+                        class="sub-item menu_item--link"
+                        style="justify-content: flex-start">
+            <nuxt-link :aria-label="`Lien vers la page ${subLink.name}`" :to="subLink.to">
+              {{ subLink.name }}
+            </nuxt-link>
+          </el-menu-item>
+        </el-submenu>
+      </template>
+    </el-menu>
+  </nav>
+  <el-menu :router="true" class="navigation-drawer" :class="{'active': menuOpened}" @select="menuOpened = false">
+    <template v-for="(link, index) in links">
+      <el-menu-item class="menu-item menu_item--link"
+                    :class="{'is-active': isActive(link.to)}"
+                    :key="index" :index="link.to" v-if="link.role === 'item'">
+        <nuxt-link :aria-label="`Lien vers la page ${link.name}`"  :to="link.to">
+          {{ link.name }}
+        </nuxt-link>
+      </el-menu-item>
+      <el-submenu  class="menu-item" v-if="link.role === 'menu'" :class="{'is-active': isActiveSubMenu(link.to, 'reglement')}" :index="link.to || link.name">
+        <template slot="title">{{ link.name }}</template>
+        <el-menu-item v-for="(subLink, subIndex) in link.links"
+                      :key="subIndex" :index="subLink.to"
+                      :class="{'is-active': isActiveSubMenu(subLink.to)}"
+                      class="sub-item menu_item--link"
+                      style="justify-content: flex-start">
+          <nuxt-link :aria-label="`Lien vers la page ${subLink.name}`"  :to="subLink.to">
+            {{ subLink.name }}
+          </nuxt-link>
+        </el-menu-item>
+      </el-submenu>
+    </template>
+  </el-menu>
+</div>

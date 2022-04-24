@@ -1,0 +1,92 @@
+.basic-section {
+  color: var(--grey100);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+
+
+.basic_section--container {
+  color: var(--grey100);
+  --grid-gap-dynamic: var(--grid-gap-static-md);
+  grid-gap: var(--grid-gap-dynamic);
+  align-items: center;
+  display: grid;
+  grid-template-columns:repeat(var(--grid-num-columns, 1), minmax(0, 1fr));
+  width: 100%
+}
+
+@media (min-width: 0px) {
+  .basic_section--container {
+    grid-template-columns:100%
+  }
+}
+
+@media (min-width: 1280px) {
+  .basic_section--container {
+    --grid-gap-dynamic: var(--grid-gap-static-lg);
+    grid-template-columns:50% 1fr
+  }
+}
+
+@media (min-width: 1920px) {
+  .basic_section--container {
+    grid-template-columns:45% 1fr
+  }
+}
+
+@media (min-width: 2560px) {
+  .basic_section--container {
+    --grid-gap-dynamic: var(--grid-gap-static-xl);
+    grid-template-columns:40% 1fr
+  }
+}
+
+.basic_section--container .text-container {
+  --grid-gap-dynamic: var(--grid-gap-static-sm);
+  grid-gap: var(--grid-gap-dynamic);
+  display: grid;
+  grid-template-columns:repeat(var(--grid-num-columns, 1), minmax(0, 1fr))
+}
+
+.basic_section--container .text-container h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: var(--header-font-family);
+  font-size: var(--header-font-size);
+  letter-spacing: 0;
+  line-height: var(--header-line-height);
+}
+
+.basic_section--container .character_column {
+  --grid-num-columns: 3;
+  --grid-gap-dynamic: var(--image-grid-gap);
+  grid-gap: var(--grid-gap-dynamic);
+  display: grid;
+  grid-template-columns:repeat(var(--grid-num-columns, 1), minmax(0, 1fr))
+}
+
+@media (max-width: 1279px) {
+  .basic_section--container .character_column {
+    grid-row-start: 1;
+    padding: 3.3% 0
+  }
+}
+
+.basic_section--container .character_column img {
+  height: auto;
+  position: relative;
+  width: 100%
+}
+
+.basic_section--container .character_column img.character-1 {
+  bottom: 5%
+}
+
+.basic_section--container .character_column img.character-2 {
+  top: 5%
+}
+
+.basic_section--container .character_column img.character-3 {
+  bottom: 2.5%
+}

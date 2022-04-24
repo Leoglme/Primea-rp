@@ -1,0 +1,88 @@
+footer {
+  grid-row-gap: var(--grid-gap-static-lg);
+  background: var(--card-background-color);
+  color: var(--body-color);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: var(--padding-top-bottom) var(--padding-sides);
+}
+
+.footer_links, .social_media {
+  display: flex;
+  flex-basis: 50%;
+}
+.footer_links {
+  grid-gap: var(--grid-gap-static-sm);
+  justify-content: flex-start;
+  order: 2;
+}
+.footer_links--item {
+  font-size: var(--font-size-2);
+  transition: color .2s ease,opacity .2s ease;
+  &:hover {
+    color: var(--primary);
+    opacity: 1;
+  }
+}
+
+.social_media {
+  justify-content: flex-end;
+  order: 3;
+  grid-gap: var(--grid-gap-static-md);
+
+  .social_media--item {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: calc(var(--base-pixel-size) * 2);
+    width: calc(var(--base-pixel-size) * 2);
+    &:hover {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
+.footer_infos {
+  flex-basis: 100%;
+  order: 4;
+  grid-gap: var(--grid-gap-static-sm);
+  color: #fff;
+  display: grid;
+  font-family: var(--body-font-family);
+  font-weight: 700;
+  justify-items: center;
+  margin-top: var(--grid-gap-static-md);
+  align-items: center;
+}
+.footer_logo--website, .footer_author, .footer_license {
+  color: #fff;
+  font-family: var(--body-font-family);
+  font-size: 75%;
+  font-weight: 700;
+}
+
+.footer_author {
+  a {
+    transition: color .2s ease,opacity .2s ease;
+
+    &::after {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width=%2724%27 height=%2724%27 fill=%27none%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cpath d=%27M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6m4-3h6v6m-11 5L21 3%27 stroke=%27%23fff%27 stroke-width=%272%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E");
+      background-position: 0 50%;
+      background-repeat: no-repeat;
+      background-size: 75%;
+      content: "";
+      display: inline-block;
+      height: 1rem;
+      margin-left: var(--grid-gap-static-xs);
+      vertical-align: baseline;
+      width: 1rem;
+      position: relative;
+      top: 4px;
+    }
+    &:hover {
+      color: var(--primary);
+      opacity: 1;
+    }
+  }
+}

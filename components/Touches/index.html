@@ -1,0 +1,16 @@
+<section id="touches">
+  <el-card v-for="(toucheCategory, index) in touches" :key="index" class="touche-card" shadow="always">
+    <div slot="header" class="clearfix">
+      <h2 class="touches_category--title">{{ toucheCategory.name }}</h2>
+    </div>
+
+    <div class="touches-list">
+      <div v-for="(touche, i) in toucheCategory.touches" :key="i" class="touche-item">
+        {{ touche.label }}
+        <div class="game-keys">
+          <span v-for="(keyboardKey, keyIndex) in touche.keys" :key="keyIndex" class="touche">{{ keyboardKey }}</span>
+        </div>
+      </div>
+    </div>
+  </el-card>
+</section>

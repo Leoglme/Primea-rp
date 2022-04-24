@@ -1,0 +1,81 @@
+{
+  "navbar": {
+    "links": [
+      {
+        "role": "item",
+        "name": "Accueil",
+        "to": "/"
+      },
+      {
+        "role": "menu",
+        "name": "Règlement",
+        "links": [
+          {
+            "role": "item",
+            "name": "Règlements",
+            "to": "/reglement"
+          },
+          {
+            "role": "item",
+            "name": "Général",
+            "to": "/reglement/general"
+          },
+          {
+            "role": "item",
+            "name": "Légal",
+            "to": "/reglement/legal"
+          },
+          {
+            "role": "item",
+            "name": "Illégal",
+            "to": "/reglement/illegal"
+          }
+        ]
+      },
+      {
+        "role": "item",
+        "name": "Juridique",
+        "to": "/juridique"
+      },
+      {
+        "role": "item",
+        "name": "Touches",
+        "to": "/touches"
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "name": "Vote top serveurs",
+        "to": "https://top-serveurs.net/gta/sigmarp"
+      },
+      {
+        "name": "Règlement",
+        "to": "/reglement"
+      },
+      {
+        "name": "Touches",
+        "to": "/touches"
+      },
+      {
+        "name": "Juridique",
+        "to": "/juridique"
+      }
+    ],
+    "social_media": [
+      {
+        "name": "Discord",
+        "to": "https://discord.com/invite/eTtZEWCpmc"
+      },
+      {
+        "name": "Twitter",
+        "to": "https://twitter.com/dibodev"
+      },
+      {
+        "name": "Github",
+        "to": "https://github.com/Leoglme"
+      }
+    ]
+  }
+}
