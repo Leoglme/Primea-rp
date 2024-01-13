@@ -27,19 +27,7 @@ jobs:
         run: npm install
 
       - name: 🛠️ Build App
-        run: npm run build
-
-      - name: 🗑️ Remove node_modules from .output/server
-        run: rm -rf .output/server/node_modules
-
-      - name: 📝 Modify package.json
-        run: |
-          mv .output/server/package.json .output/package.json
-          jq '{name: .name, version: .version, private: .private, dependencies: .bundledDependencies}' .output/package.json > .output/temp.json
-          mv .output/temp.json .output/package.json
-
-      - name: 📝 Create server.js
-        run: echo "import('./server/index.mjs');" > .output/server.js
+        run: npm run generate
 
       - name: 📤 Deploy to VPS
         uses: appleboy/scp-action@master
@@ -48,10 +36,10 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: ".output/"
+          source: "dist/"
           target: ${{ env.APP_DIR }}/html
 
-      - name: 🚀 Install dependencies and restart Server with PM2
+      - name: 🚀 Restart Server with PM2
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -59,6 +47,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd ${{ env.APP_DIR }}/html/.output
-            npm install
+            cd ${{ env.APP_DIR }}/html
             pm2 restart gtarp.dibodev.com || PORT=3600 pm2 start server.js --name gtarp.dibodev.com
