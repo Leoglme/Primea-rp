@@ -10,7 +10,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.15.8"
+    "nuxt": "^2.15.8",
+    "vue-server-renderer": "^2.7.16",
+    "vue-template-compiler": "^2.7.16"
   },
   "devDependencies": {
     "@nuxt/image": "^0.6.1",
