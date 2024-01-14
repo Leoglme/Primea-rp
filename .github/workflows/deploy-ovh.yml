@@ -36,16 +36,5 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "dist/"
+          source: "dist/*"
           target: ${{ env.APP_DIR }}/html
-
-      - name: 🚀 Restart Server with PM2
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          port: ${{ secrets.SSH_PORT }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd ${{ env.APP_DIR }}/html
-            pm2 restart gtarp.dibodev.com || PORT=3600 pm2 start server.js --name gtarp.dibodev.com
