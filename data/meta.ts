@@ -89,7 +89,14 @@ export const meta = {
     {hid: 'mask-icon', rel: 'mask-icon', href: '/favicon/safari-pinned-tab.svg', color: website.colorPrimary},
     {hid: 'shortcut-icon', rel: 'shortcut icon', href: '/favicon/favicon-96x96.png'},
     {hid: 'manifest', rel: 'manifest', href: '/favicon/manifest.json'}
-  ]
+  ],
+  script: [
+    {
+      src: 'https://analytics.dibodev.com/analytics.js',
+      'data-domain': website.domain,
+      defer: true
+    }
+  ],
 }
 
 export const langAlternate = () => {

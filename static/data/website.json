@@ -4,7 +4,7 @@
   "description": "Primea rp est un serveur français basé sur GTA 5 RP présent sur les serveurs dédiés de FiveM. Serveur whitelist, Scripts originaux, Mise à jour quotidienne.",
   "category": "games",
   "url": "https://gtarp.dibodev.com",
-  "author": "Dibodev",
+  "author": "Primea RP",
   "author_website": "https://dibodev.com",
   "email": "contact@gtarp.dibodev.com",
   "keywords": "gta gtarp gta5 gtav fivem free access fr francais primea primearp primea-rp rp",
@@ -16,6 +16,7 @@
   "city": "rennes",
   "country": "france",
   "postal_code": "35000",
+  "domain": "gtarp.dibodev.com",
   "languages": [
     {
       "lang": "fr",
